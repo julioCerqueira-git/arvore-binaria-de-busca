@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árvore Binária de Busca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌳 Árvore Binária de Busca</h1>
+            <p>Implementação completa em TypeScript</p>
+        </header>
+
+        <div class="row">
+            <div class="col">
+                <div class="section">
+                    <h2>Inserir Elemento</h2>
+                    <form id="insertForm" class="form">
+                        <input type="number" id="insertInput" placeholder="Digite um número" required>
+                        <button type="submit">Inserir</button>
+                    </form>
+                </div>
+
+                <div class="section">
+                    <h2>Buscar Elemento</h2>
+                    <form id="searchForm" class="form">
+                        <input type="number" id="searchInput" placeholder="Digite um número para buscar" required>
+                        <button type="submit">Buscar</button>
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div class="col">
+                <div class="section">
+                    <h2>Análise de Nós</h2>
+                    
+                    <div class="form">
+                        <input type="number" id="ancestorsInput" placeholder="Digite um número" required>
+                        <button id="ancestorsBtn">Buscar Ancestrais</button>
+                    </div>
+
+                    <div class="form">
+                        <input type="number" id="descendantsInput" placeholder="Digite um número" required>
+                        <button id="descendantsBtn">Buscar Descendentes</button>
+                    </div>
+
+                    <div class="form">
+                        <input type="number" id="levelInput" placeholder="Digite um número" required>
+                        <button id="levelBtn">Buscar Nível</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Controles</h2>
+                    <div class="btn-group">
+                        <button id="exampleBtn" class="btn-example">Inserir Exemplo</button>
+                        <button id="clearBtn" class="btn-clear">Limpar Árvore</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Resultados</h2>
+                    <div id="output" class="output">
+                        <p class="empty">Árvore vazia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Implementação de Árvore Binária de Busca em TypeScript</p>
+        </footer>
+    </div>
+
+    <script src="dist/script.js"></script>
+</body>
+</html>

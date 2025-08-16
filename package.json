@@ -1,0 +1,16 @@
+{
+  "name": "arvore-binaria-de-busca",
+  "version": "1.0.0",
+  "description": "Implementação de árvore binária de busca em TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["typescript", "binary-search-tree", "data-structures"],
+  "author": "",
+  "license": "MIT"
+}
